@@ -1,0 +1,47 @@
+body{ 
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(167, 161, 170) ,rgb(250, 199, 246));
+}
+.heading{
+    padding: 100px 0 20px 0;
+
+}
+#inputField,#button,#playStopBtn{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(182, 26, 5);
+}
+table{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+li{
+    list-style: decimal;
+    font-size: larger;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+   
+
+#btn{
+    border: none;
+    background-color: rgb(167, 161, 170);
+    
+    
+}
+
+#button:active {
+    background-color: rgb(100, 89, 89) ; /* Darker green on click */
+    transform: scale(0.95); /* Slightly smaller on click */
+}
